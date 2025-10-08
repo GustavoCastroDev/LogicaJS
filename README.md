@@ -1,2 +1,2 @@
-# L-gicaJs
-Portfólio dedicado aos exercícios de lógica de programação da Alura, utilizando JavaScritp.
+# LogicaJs
+Bem Vindo(a)! Esse é meu portfólio dedicado aos exercícios de lógica de programação utilizando JavaScritp, da plataforma Alura.
