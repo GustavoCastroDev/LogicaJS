@@ -23,14 +23,28 @@
             </div>
         </div>
         <div class="container__inputs">
-            <label for="lblNome">Nome:</label>
-            <input type="text" name="lblNome" id="lblNome">
-            <button type="button" onclick="mensagemNome()">Enviar</button>
-            <br>
+            <label for="lblNome">Nome:</label><br>
+            <input type="text" name="lblNome" id="lblNome" style="background-color: black;"><br>
+            <button type="button" onclick="mensagemNome()" style="background-color: black;">Enviar</button>
+            <br><br>
             <label for="lblDobro">Calcule o dobro de um número:</label>
-            <input type="text" name="lblDobro" id="lblDobro">
-            <button type="button" onclick="calcularDobro()">Enviar</button>
-            <br>
+            <input type="text" name="lblDobro" id="lblDobro" style="background-color: black;"><br>
+            <button type="button" onclick="calcularDobro()" style="background-color: black;">Enviar</button>
+            <br><br>
+            <label for="lblMedia">Insira três números para calcular a média:</label>
+            <input type="text" name="lblNumeroUm" id="lblNumeroUm" style="margin-top: 5px; background-color: black;" placeholder="Número 1"><br>
+            <input type="text" name="lblNumeroDois" id="lblNumeroDois" style="margin-top: 5px; background-color: black;" placeholder="Número 2"><br>
+            <input type="text" name="lblNumeroTres" id="lblNumeroTres" style="margin-top: 5px; background-color: black;" placeholder="Número 3"><br>
+            <button type="button" onclick="calcularMedia()" style="margin-top: 5px; background-color: black;">Enviar</button>
+            <br><br>
+            <label for="lblNumMaior">Insira dois números para calcular o maior deles:</label>
+            <input type="text" name="lblPrimeiro" id="lblPrimeiro" style="margin-top: 5px; background-color: black;" placeholder="Número 1"><br>
+            <input type="text" name="lblSegundo" id="lblSegundo" style="margin-top: 5px; background-color: black;" placeholder="Número 2"><br>
+            <button type="button" onclick="calcularMaior()" style="margin-top: 5px; background-color: black;">Enviar</button>
+            <br><br>
+            <label for="lblQuadrado">Calcule o quadro de um número:</label>
+            <input type="text" name="lblQuadrado" id="lblQuadrado" style="background-color: black;"><br>
+            <button type="button" onclick="calcularQuadrado()" style="background-color: black;">Enviar</button>
         </div>
     </div>
     <script src="app.js" defer></script>
